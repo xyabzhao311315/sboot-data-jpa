@@ -17,6 +17,7 @@ public class UserController {
 	@RequestMapping(value ="/user/{id}")
 	public String getUser(@PathVariable Integer id) {
 		User user1 = userService.getUser(id);
+		System.out.println("88888888");
 		return user1.toString();
 	}
 
