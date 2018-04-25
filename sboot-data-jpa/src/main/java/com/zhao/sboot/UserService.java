@@ -15,6 +15,10 @@ public class UserService {
 	@SuppressWarnings("unused")
 	public User getUser(Integer id) {
 		
+		
+		User user = userRepository.getOne(id);
+		User user = userRepository.getOne(id);
+		User user = userRepository.getOne(id);
 		User user = userRepository.getOne(id);
 		return user;
 	}
